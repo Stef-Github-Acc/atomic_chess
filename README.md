@@ -53,16 +53,16 @@ This method will output the board's current configuration to the console.
 
 ## Rules and Constraints
 
-- Capturing Pieces: When a piece is captured, it and all pieces in the surrounding 8 squares (except pawns) are removed from the board due to an explosion.
+- **Capturing Pieces**: When a piece is captured, it and all pieces in the surrounding 8 squares (except pawns) are removed from the board due to an explosion.
 
-- King Captures: Kings cannot capture pieces and capturing a king ends the game.
+- **King Captures**: Kings cannot capture pieces and capturing a king ends the game.
 
-- No Castling, En Passant, or Pawn Promotion: These standard chess rules are not applicable in Atomic Chess.
+- **No Castling, En Passant, or Pawn Promotion**: These standard chess rules are not applicable in Atomic Chess.
 
-- Pawn Moves: Pawns can move two squares forward on their first move only.
+- **Pawn Moves**: Pawns can move two squares forward on their first move only.
 
 ## Example
-Here’s an example demonstrating how to use the ChessVar class:
+Here’s an example demonstrating how to use the `ChessVar` class:
 ```python
 game = ChessVar()
 
@@ -76,4 +76,4 @@ print(game.get_game_state())  # Output: UNFINISHED
 ```
 ## Installation
 
-To use the ChessVar class, ensure you have Python installed on your system. Simply place the ChessVar.py file in your working directory and import it as needed.
+To use the `ChessVar` class, ensure you have Python installed on your system. Simply place the ChessVar.py file in your working directory and import it as needed.
